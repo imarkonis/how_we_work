@@ -4,10 +4,11 @@ Reproducible science is our top priority. Therefore, it is imperative to establi
 
 Every new member that joins the research team should:
 
-* Apply for vpn through the university helpdesk service.
-* Create a GitHub account.
-* Verify that [owncloud](https://owncloud.cesnet.cz/)  account is active and working.
 * Teams is used for communication and project management. Make sure to have been invited to both of them. 
+* Apply for vpn through the university helpdesk service.
+* Get credentials for deneb, our server, by contacting Alex. 
+* Create a GitHub account.
+* Verify that [owncloud](https://owncloud.cesnet.cz/) account is active and working.
 * Download and start to maintain a reference manager. We recommend [Zotero](https://www.zotero.org/), as the freeware is compatible with both Microsoft Word and Google Docs. 
 * Read the standard scripting practices described [here](https://github.com/KVHEM/how_we_work/blob/master/CONTRIBUTING.md).
 
@@ -16,22 +17,21 @@ Every new member that joins the research team should:
 * In general, we use a folder called "data" within each repository.
 * If data comes from another data source, we include the data source in a README.
 * Raw data is available in the corresponding GitHub repository unless file-size is too large (> 100MB).
-* When data file-size is too large, we store it in owncloud and include the link to the README file for reproducibility.
 * When storing raw data, always include metadata describing what is in the file and what the columns mean. Remember, we consider this data as read-only.
-* If we clean the data, we use a folder called "raw" or similar to differentiate original data from manipulated data easily.
+* If we pre-process the data, we use a folder called "raw" or similar to differentiate original data from manipulated data easily.
 * Some useful suggestions and ideas can be found in the [Cambridge Data Management Website](https://www.data.cam.ac.uk/data-management-guide/organising-your-data).
 
 ## Analysis
 
 * We do our data analysis in GitHub repositories to facilitate collaboration and sharing.
 * We use scripts to process data, make models, do analyses, and many others. In addition, we avoid spreadsheets, gis applications, or other software.
-* `R` is used by most team members and the `data.table`, `ggplot2` packages in specific. Of course, other software/packages are welcome. 
+* `R` is used by most team members and the `tidyverse` packages in specific. Of course, other software/packages are welcome. 
 * We try to comment a lot in our code.
 
 ## Results-Presentation
 
 * We aim to fully reproducible papers, like this [example](https://github.com/CenterForOpenScience/rpp/blob/master/README.md). 
-* We publish git repositories through [Zenodo](https://zenodo.org/) upon publication of a manuscript.
+* We publish git repositories and our data through [Zenodo](https://zenodo.org/) upon publication of a manuscript.
 * Collaborative manuscripts are written either in [Overleaf](https://www.overleaf.com/) or [Google Drive](https://www.google.com/drive/).
 
 ## Guides and tutorials
